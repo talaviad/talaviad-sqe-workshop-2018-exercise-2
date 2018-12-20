@@ -18,6 +18,11 @@
                 width: 80%;
                 height: 95%;
             }
+
+            #symbolicSub {
+                width: 80%;
+                height: 95%;
+            }
         </style>
     </head>
     <body>
@@ -25,12 +30,22 @@
             <tr>
                 <td>
                     <div>
-                        <label>Enter code here</label>
+                        <label><strong>Enter code here </strong></label>
                     </div>
                 </td>
                 <td>
                     <div>
-                        <label>Parsed code here</label>
+                        <label><strong>Parsed code here</strong></label>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <label><strong>Enter Your Input Here</strong></label>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <label><strong>Symbolic Output</strong></label>
                     </div>
                 </td>
             </tr>
@@ -43,6 +58,16 @@
                 <td>
                     <div class="textAreaWrapper">
                         <textarea id="parsedCode" title="Parse code"></textarea>
+                    </div>
+                </td>
+                <td>
+                    <div class="textAreaWrapper">
+                        <textarea id="vectorInput" title="Parse code"></textarea>
+                    </div>
+                </td>
+                <td>
+                    <div class="textAreaWrapper" >
+                        <div id="symbolicSub" title="Parse code">The Result Will Apear Here</div>
                     </div>
                 </td>
             </tr>
